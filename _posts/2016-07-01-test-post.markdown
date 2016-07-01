@@ -6,3 +6,5 @@ date:   2016-07-01 00:52:20 -0700
 This is a test post to see if math will render. The Fourier transform:
 
 $$\mathcal{F}(\omega) = \int_{-\infty}^\infty f(t) e^{-j \omega t} dt$$
+
+Testing inline math: \\( \min_x c^\top x\ :\ Ax \leq b \\)
