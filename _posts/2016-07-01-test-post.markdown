@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Test Post"
-date:   2016-07-01 00:52:20 -0700
+date:   2016-07-01 00:52:20 -0800
 ---
 This is a test post to see if math will render. The Fourier transform:
 
