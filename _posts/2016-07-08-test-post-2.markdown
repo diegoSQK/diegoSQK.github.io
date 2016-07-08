@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Test Post 2"
+---
+This is a test post to see if code blocks will render:
+
+{% highlight python %}
+def quicksort(L):
+    if len(L) <= 1:
+        return L
+
+    p = L[0]
+    L1 = []
+    L2 = []
+    L3 = []
+    for e in L:
+        if e < p:
+            L1.append(e)
+        if e == p:
+            L2.append(e)
+        if e > p:
+            L3.append(e)
+
+    return quicksort(L1) + L2 + quicksort(L3)
+
+{% endhighlight %}
+
+
